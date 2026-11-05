@@ -1,0 +1,15 @@
+# Default configuration for skab-anomaly-mvp
+
+window_size: 30
+stride: 5
+anomaly_percentile: 99.0
+random_seed: 42
+
+# Autoencoder
+ae_hidden_dims: [64, 32, 16]
+ae_epochs: 50
+ae_batch_size: 64
+ae_lr: 0.001
+
+# Isolation Forest
+contamination: 0.05
